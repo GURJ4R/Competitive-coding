@@ -1,5 +1,4 @@
 n=int(input())
-for i in range(n):
-    a=map(int,input().split())
-    list=[a]
-print(list)
+a=list(map(int,input().split()))
+for i in a:
+    print(i , end = " ")
